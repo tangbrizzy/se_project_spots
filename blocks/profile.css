@@ -49,6 +49,12 @@
   gap: 5px;
 }
 
+.profile__edit-btn:hover {
+  cursor: pointer;
+  background-color: #fcf5e5;
+  opacity: 100%;
+}
+
 .profile__add-btn {
   margin-left: auto;
   background-color: #212121;
@@ -61,6 +67,12 @@
   align-items: center;
   gap: 5px;
   align-self: flex-end;
+}
+
+.profile__add-btn:hover {
+  cursor: pointer;
+  background-color: #212121;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {

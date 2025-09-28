@@ -17,3 +17,4 @@ This project involve in creating a website that is perfect for decribing a biogr
 This webate is deployed to Github Pages
 
 - Deployment Link:
+  https://tangbrizzy.github.io/se_project_spots

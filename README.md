@@ -18,3 +18,6 @@ This webate is deployed to Github Pages
 
 - Deployment Link:
   https://tangbrizzy.github.io/se_project_spots
+
+- Short video description:
+  https://drive.google.com/file/d/10ehUJkID6aaVwdXwyN9NxBC4_LLv_g3Q/view?usp=drive_link

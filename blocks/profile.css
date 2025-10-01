@@ -2,14 +2,14 @@
   display: flex;
   padding: 34px 0 20px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  font: "Poppins";
+  font: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .profile__avatar {
   height: 190px;
   width: 190px;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -31,6 +31,10 @@
 }
 
 .profile__description {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+  color: rgba(33, 33, 33, 0.7);
   margin: 0;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -40,8 +44,11 @@
   max-width: 420px;
 }
 .profile__edit-btn {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
   margin-top: auto;
-  background-color: #fcf5e5;
+  background-color: transparent;
   opacity: 70%;
   border: none;
   display: flex;
@@ -51,11 +58,14 @@
 
 .profile__edit-btn:hover {
   cursor: pointer;
-  background-color: #fcf5e5;
   opacity: 100%;
 }
 
 .profile__add-btn {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+  border: 0;
   margin-left: auto;
   background-color: #212121;
   color: #fcf5e5;
@@ -71,7 +81,6 @@
 
 .profile__add-btn:hover {
   cursor: pointer;
-  background-color: #212121;
   opacity: 80%;
 }
 
@@ -102,9 +111,11 @@
   }
   .profile__column {
     margin: 0 0 20px;
+    align-items: center;
   }
 
   .profile__add-btn {
     margin: 0;
+    width: 100%;
   }
 }

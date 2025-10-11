@@ -79,7 +79,7 @@
   align-self: flex-end;
 }
 
-.profile__add-btn:hover {
+.profile__new-post-btn:hover {
   cursor: pointer;
   opacity: 80%;
 }

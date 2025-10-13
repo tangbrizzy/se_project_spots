@@ -37,6 +37,11 @@
   border: none;
 }
 
+.modal__close-btn:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
 .modal__title {
   margin: 0 0 32px;
   font-family: Poppins;
@@ -89,6 +94,13 @@
   background-color: rgba(33, 33, 33, 1);
   border-radius: 8px;
   padding: 18px 32px;
+  opacity: 1;
+}
+.modal__submit-btn:hover {
+  cursor: pointer;
+  visibility: visible;
+  opacity: 0.5;
+  transition: opacity 2s ease-out;
 }
 
 @media screen and (max-width: 627px) {

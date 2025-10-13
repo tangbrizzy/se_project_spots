@@ -1,5 +1,7 @@
 .modal {
   visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -14,9 +16,11 @@
 
 .modal_is-opened {
   visibility: visible;
+  opacity: 1;
 }
 
 .modal__container {
+  box-sizing: border-box;
   max-width: 730px;
   width: 100%;
   border-radius: 8px;
@@ -46,7 +50,7 @@
   margin: 0 0 32px;
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
+  font-style: normal;
   font-size: 32px;
   line-height: 100%;
 }
@@ -60,7 +64,6 @@
   margin: 0 0 32px;
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 110.00000000000001%;
 }
@@ -104,7 +107,7 @@
 }
 
 @media screen and (max-width: 627px) {
-  .modal_label {
+  .modal__label {
     margin: 0 0 24px;
   }
 

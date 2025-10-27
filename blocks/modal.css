@@ -99,7 +99,6 @@
   color: rgba(33, 33, 33, 0.3);
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 100%;
 }
@@ -107,7 +106,6 @@
 .modal__submit-btn {
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 100%;
   max-width: 156px;
@@ -142,7 +140,6 @@
   background-color: rgba(33, 33, 33, 1);
   font-family: Poppins;
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 120%;
   padding: 4px 8px;
@@ -158,7 +155,6 @@
   .modal__title {
     font-family: Poppins;
     font-weight: 500;
-    font-style: Medium;
     font-size: 20px;
     line-height: 100%;
     margin-bottom: 24px;
@@ -167,7 +163,6 @@
   .modal__input {
     font-family: Poppins;
     font-weight: 500;
-    font-style: Medium;
     font-size: 16px;
     line-height: 110.00000000000001%;
   }
@@ -180,7 +175,6 @@
   .modal__input::placeholder {
     font-family: Poppins;
     font-weight: 500;
-    font-style: Medium;
     font-size: 16px;
     line-height: 100%;
   }

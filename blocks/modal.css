@@ -78,7 +78,8 @@
 }
 
 .modal__label {
-  margin: 0 0 32px;
+  margin-bottom: 32px;
+  display: block;
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
@@ -103,6 +104,24 @@
   line-height: 100%;
 }
 
+.modal__input:hover {
+  border: 1px solid rgb(33, 33, 33);
+}
+
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
+.modal__error {
+  display: block;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110.00000000000001%;
+  color: rgba(255, 0, 0, 0.7);
+  margin-top: 8px;
+}
+
 .modal__submit-btn {
   font-family: Poppins;
   font-weight: 500;
@@ -115,6 +134,11 @@
   padding: 18px 32px;
   opacity: 1;
 }
+
+.modal__submit-btn_inactive {
+  background-color: grey;
+}
+
 .modal__submit-btn:hover {
   cursor: pointer;
   visibility: visible;

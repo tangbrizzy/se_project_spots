@@ -123,7 +123,7 @@ editProfileForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
-  openModal(editProfileModal);
+  closeModal(editProfileModal);
 });
 
 newPostForm.addEventListener("submit", function (evt) {

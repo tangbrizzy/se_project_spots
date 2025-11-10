@@ -21,3 +21,7 @@ This webate is deployed to Github Pages
 
 - Short video description:
   https://drive.google.com/file/d/10ehUJkID6aaVwdXwyN9NxBC4_LLv_g3Q/view?usp=drive_link
+
+## Project Pitch Video
+
+https://drive.google.com/file/d/1W_P4cuS4IJGxmwUHnDqfOZYqu0gQoWvA/view?usp=sharing

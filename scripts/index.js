@@ -155,7 +155,7 @@ newPostForm.addEventListener("submit", function (evt) {
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
   evt.target.reset();
-  resetValidation(formEl, inputList, config);
+  resetValidation(formEl, inputList, settings);
   closeModal(newPostModal);
 });
 

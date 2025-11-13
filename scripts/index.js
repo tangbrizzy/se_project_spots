@@ -1,4 +1,4 @@
-import { settings } from "./validation.js";
+import { settings, resetValidation } from "./validation.js";
 const initialCards = [
   {
     name: "Golden Gate Bridge",
@@ -158,7 +158,7 @@ newPostForm.addEventListener("submit", function (evt) {
   evt.target.reset();
   resetValidation(
     evt.target,
-    evt.target.querySelectorAll(settings.inputSelector),
+    Array.from(evt.target.querySelectorAll(settings.inputSelector)),
     settings
   );
   closeModal(newPostModal);
